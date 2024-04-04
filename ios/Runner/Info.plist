@@ -24,6 +24,10 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0.2</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>We need data to analize crashlogs of app</string>
+	<key>NSAdvertisingAttributionReportEndpoint</key>
+    <string>https://affise-skadnetwork.com/</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>

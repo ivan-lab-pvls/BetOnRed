@@ -32,9 +32,8 @@ target 'Runner' do
   use_modular_headers!
 
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
-  target 'RunnerTests' do
-    inherit! :search_paths
-  end
+  pod 'AffiseModule/Advertising', '1.6.27'
+  pod 'AffiseModule/Status', '1.6.27'
 end
 
 post_install do |installer|
